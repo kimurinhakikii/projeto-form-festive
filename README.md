@@ -1,7 +1,3 @@
-Aqui está um exemplo de README simples e bem estruturado para o seu projeto **"Form Festive"** no GitHub:  
-
----
-
 # 🎉 Form Festive  
 
 Um projeto de formulário interativo e estiloso, perfeito para capturar informações de usuários em eventos ou celebrações.  
