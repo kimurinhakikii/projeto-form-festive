@@ -1,11 +1,11 @@
 aside#brand-content {
-  margin: 20px 0 0 20px;
+  margin: 1.25rem 0 0 1.25rem;
   position: relative;
 
   .linear-gradient {
     position: relative;
     &::after {
-      border-radius: 12px;
+      border-radius: 0.75rem;
       content: "";
       position: absolute;
       inset: 0;
@@ -19,21 +19,21 @@ aside#brand-content {
     }
   }
   img {
-    border-radius: 12px;
+    border-radius: 0.75rem;
   }
   & div#inner-content {
     position: absolute;
-    top: 32px;
-    left: 32px;
+    top: 2rem;
+    left: 2rem;
 
     & div#logo {
       img {
-        height: 48px;
-        width: 45.85px;
+        height: 3rem;
+        width: 2.865625rem;
       }
 
       div#logo-text {
-        padding-block: 16px 4px;
+        padding-block: 1rem 0.25rem;
         font: var(--text-logo);
         color: var(--color-accent-pink);
       }
