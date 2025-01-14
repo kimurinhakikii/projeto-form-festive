@@ -1,14 +1,12 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Festivite</title>
-  <link rel="shortcut icon" href="assets/party-popper.png" type="image/x-icon">
   <link rel="stylesheet" href="styles/index.css">
+  <link rel="shortcut icon" href="assets/party-popper.png" type="image/x-icon">
 </head>
-
 <body>
   <div id="main-layout">
     <aside id="brand-content">
@@ -261,8 +259,8 @@
 
           <fieldset id="checklist">
             <label class="checkbox-wrapper">
-              Li e concordo com os <a target="_blank" href="https://www.google.com.br/?hl=pt-BR">Termos e Condições</a> e com a <a target="_blank" href="https://www.google.com.br/?hl=pt-BR">Política de Privacidade</a>
-              <input type="checkbox" name="read-and-agree" id="read-and-agree" />
+              Li e concordo com os <a target="_blank" href="#">Termos e Condições</a> e com a <a target="_blank" href="#">Política de Privacidade</a>
+              <input type="checkbox" name="read-and-agree" id="read-and-agree" checked/>
               <span class="checkmark"></span>
             </label>
             <label class="checkbox-wrapper">
@@ -285,3 +283,18 @@
       </div>
     </main>
   </div>
+
+  <script>
+    let input = document.getElementById("choose-file");
+    let fileName = document.getElementById("file-name")
+
+    input.addEventListener("change", () => {
+      let file = document.querySelector("input[type=file]").files[0];
+
+      fileName.innerText = file.name;
+      fileName.style.color = "#c8cdd0";
+    })
+  </script>
+</body>
+
+</html>
